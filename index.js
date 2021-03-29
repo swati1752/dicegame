@@ -14,5 +14,7 @@ image2.setAttribute("src", randomImageSrc2);
 text = document.querySelector("h1");
 if(randomNumber1>randomNumber2)
 text.innerHTML="Player 1 WON";
-else
+else if (randomNumber1<randomNumber2)
 text.innerHTML="Player 2 WON";  
+else 
+text.innerHTML="It's a Tie";
